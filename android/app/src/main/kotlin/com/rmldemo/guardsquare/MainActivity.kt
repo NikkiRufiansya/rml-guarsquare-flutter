@@ -1,4 +1,4 @@
-package com.example.rml_guardsqure_flutter
+package com.rmldemo.guardsquare
 
 import io.flutter.embedding.android.FlutterActivity
 
