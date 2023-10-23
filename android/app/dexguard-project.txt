@@ -1,1 +1,13 @@
 -verbose
+#-addconfigurationdebugging
+
+-raspchecks emulator, certificatetamper, debug, virtualenvironment, hook, root entrypoint
+-raspcontinueon none
+-raspflags root 71671
+
+-keep class io.flutter.**
+
+-encryptnativelibraries libflutter.so
+
+
+
