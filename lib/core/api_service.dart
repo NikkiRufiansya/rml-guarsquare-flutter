@@ -6,7 +6,7 @@ import '../model/games_model.dart';
 
 class ApiService {
   final Dio dio = Dio();
-  final String baseUrl = "https://b606-36-69-100-86.ngrok-free.app/rest-api-demo/";
+  final String baseUrl = "https://0af4-36-69-100-86.ngrok-free.app/rest-api-demo/";
 
   Future<void> performLogin(
       String email, String password, BuildContext context) async {

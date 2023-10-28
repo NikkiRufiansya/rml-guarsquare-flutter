@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         } else {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => const LoginScrenn()),
+            MaterialPageRoute(builder: (context) => const HomeScreen()),
           );
         }
       },

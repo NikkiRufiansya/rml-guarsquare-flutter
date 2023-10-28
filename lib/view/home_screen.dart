@@ -295,7 +295,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: secondary2,
         child: Icon(Icons.message),
         onPressed: () async {
-          final prefs = await SharedPreferences.getInstance();
+          
           dynamic user = {
             'userId': "visitor",
             'password': "",
@@ -309,8 +309,7 @@ class _HomeScreenState extends State<HomeScreen> {
           };
           KommunicateFlutterPlugin.buildConversation(user)
               .then((clientConversationId) {
-            print("Conversation builder success : " +
-                clientConversationId.toString());
+            print("Conversation builder success : $clientConversationId");
           }).catchError((error) {
             print("Conversation builder error : " + error.toString());
           });

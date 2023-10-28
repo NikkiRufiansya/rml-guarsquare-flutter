@@ -4,7 +4,7 @@ buildscript {
         google()
         mavenCentral()
         maven {
-            url = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.18/lib'
+            url = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.19/lib'
         }
     }
 

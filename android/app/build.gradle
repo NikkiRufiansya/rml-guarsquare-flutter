@@ -86,7 +86,7 @@ dependencies {
 
 
 dexguard {
-    path = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.18'
+    path = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.19'
     license = '/Users/rmltech/Documents/GuardSqurare/dexguard-license.txt'
     configurations {
         release {
