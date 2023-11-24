@@ -1,0 +1,45 @@
+debug:
+  autoconfigure: false
+  instrumentation: 
+    enabled: true
+  verbosity: debug
+protection:
+  enabled: true
+  names:
+    enabled: true
+  code-integrity:
+    enabled: true
+    objc-calls:
+      enabled: true  
+    functions:
+      enabled: true
+    tracing:
+      enabled: true
+    system-library:
+      enabled: true
+  control-flow:
+    enabled: true
+  environment-integrity:
+    enabled: true
+    debugger:
+      enabled: true
+    emulator:
+      enabled: true
+      continue-on-callback: true
+    jailbreak:
+      enabled: true
+      callback: "my_callback"
+      continue-on-callback: false
+    touch-simulation:
+      enabled: true
+  arithmetic-operations:
+    enabled: true
+  data:
+    enabled: true
+  app-integrity:
+    enabled: true
+  resources:
+    enabled: true 
+license:
+  - /Users/rmltech/Documents/GuardSqurare/ixguard-license.txt
+ 

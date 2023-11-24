@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-rml-flutter-demo-protected-enZcq1/ipaextract/Payload/Runner.app/Frameworks/App.framework/App'
+relocations:     []
+...

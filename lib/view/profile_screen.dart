@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kommunicate_flutter/kommunicate_flutter.dart';
+//import 'package:kommunicate_flutter/kommunicate_flutter.dart';
 import 'package:rml_guardsqure_flutter/assets/colors.dart';
 import 'package:rml_guardsqure_flutter/view/agenda_screen.dart';
 import 'package:rml_guardsqure_flutter/view/home_screen.dart';
@@ -18,15 +18,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
   int selectedIndex = 3;
 
   Future<void> logout() async {
-    final prefs = await SharedPreferences.getInstance();
-    KommunicateFlutterPlugin.logout();
-    await prefs.remove(
-        "jwt_token"); // Menghapus token JWT atau data otentikasi lainnya
-    Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => const LoginScrenn(),
-        ));
+    // final prefs = await SharedPreferences.getInstance();
+    // KommunicateFlutterPlugin.logout();
+    // await prefs.remove(
+    //     "jwt_token"); // Menghapus token JWT atau data otentikasi lainnya
+    // Navigator.pushReplacement(
+    //     context,
+    //     MaterialPageRoute(
+    //       builder: (context) => const LoginScrenn(),
+    //     ));
   }
 
   void onItemTapped(int index) {

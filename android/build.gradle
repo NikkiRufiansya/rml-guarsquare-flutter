@@ -1,17 +1,22 @@
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext {
+
+        agp_version1 = '7.2.0'
+        agp_version = '8.1.0'
+    }
+    ext.kotlin_version = '1.8.0'
     repositories {
         google()
         mavenCentral()
         maven {
-            url = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.19/lib'
+            url = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.21/lib'
         }
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0'
+        classpath "com.android.tools.build:gradle:$agp_version1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.guardsquare:dexguard-gradle-plugin:+'
+        classpath 'com.guardsquare:dexguard-gradle-plugin:9.4.21'
     }
 }
 

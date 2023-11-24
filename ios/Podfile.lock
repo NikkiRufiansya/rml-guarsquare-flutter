@@ -1,55 +1,32 @@
 PODS:
-  - Flutter (1.0.0)
-  - iOSDropDown (0.4.0)
-  - Kingfisher (7.6.2)
-  - Kommunicate (7.0.2):
-    - KommunicateChatUI-iOS-SDK (~> 1.1.9)
-  - kommunicate_flutter (0.0.1):
+  - camera_avfoundation (0.0.1):
     - Flutter
-    - Kommunicate (~> 7.0.1)
-  - KommunicateChatUI-iOS-SDK (1.1.9):
-    - KommunicateChatUI-iOS-SDK/Complete (= 1.1.9)
-  - KommunicateChatUI-iOS-SDK/Complete (1.1.9):
-    - iOSDropDown
-    - Kingfisher (~> 7.6.2)
-    - KommunicateChatUI-iOS-SDK/RichMessageKit
-    - KommunicateCore-iOS-SDK (~> 1.1.4)
-    - SwipeCellKit (~> 2.7.1)
-    - ZendeskChatProvidersSDK (~> 3.0.0)
-  - KommunicateChatUI-iOS-SDK/RichMessageKit (1.1.9)
-  - KommunicateCore-iOS-SDK (1.1.4)
+  - Flutter (1.0.0)
+  - flutter_nfc_kit (2.0.0):
+    - Flutter
   - local_auth_ios (0.0.1):
     - Flutter
   - shared_preferences_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
-  - SwipeCellKit (2.7.1)
   - webview_flutter_wkwebview (0.0.1):
     - Flutter
-  - ZendeskChatProvidersSDK (3.0.0)
 
 DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
   - Flutter (from `Flutter`)
-  - kommunicate_flutter (from `.symlinks/plugins/kommunicate_flutter/ios`)
+  - flutter_nfc_kit (from `.symlinks/plugins/flutter_nfc_kit/ios`)
   - local_auth_ios (from `.symlinks/plugins/local_auth_ios/ios`)
   - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
   - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
 
-SPEC REPOS:
-  trunk:
-    - iOSDropDown
-    - Kingfisher
-    - Kommunicate
-    - KommunicateChatUI-iOS-SDK
-    - KommunicateCore-iOS-SDK
-    - SwipeCellKit
-    - ZendeskChatProvidersSDK
-
 EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
   Flutter:
     :path: Flutter
-  kommunicate_flutter:
-    :path: ".symlinks/plugins/kommunicate_flutter/ios"
+  flutter_nfc_kit:
+    :path: ".symlinks/plugins/flutter_nfc_kit/ios"
   local_auth_ios:
     :path: ".symlinks/plugins/local_auth_ios/ios"
   shared_preferences_foundation:
@@ -58,18 +35,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
 
 SPEC CHECKSUMS:
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
-  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
-  Kommunicate: ed7b1b7b788c90791e11a2ec38487044a4e11bde
-  kommunicate_flutter: f708c6cfaf55801d28dd18ed1e4a13451d5ec524
-  KommunicateChatUI-iOS-SDK: b41eb6d89c75e0b2f8159aa2943f77bc89acaa38
-  KommunicateCore-iOS-SDK: e7ede494b32e5238dd3421d38682ee2ee8c2d22e
+  flutter_nfc_kit: 965c98c3fa68f5609f1cc89abb968fe1b8ffdbaa
   local_auth_ios: c6cf091ded637a88f24f86a8875d8b0f526e2605
   shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
-  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
   webview_flutter_wkwebview: 2e2d318f21a5e036e2c3f26171342e95908bd60a
-  ZendeskChatProvidersSDK: af93e02e2058875f92e6ad86e74ee51203b4079e
 
 PODFILE CHECKSUM: e2f33af0976ee6d1664f005745f4a98457e8bc19
 

@@ -5,7 +5,7 @@ import 'package:rml_guardsqure_flutter/view/detail_product_screen.dart';
 import 'package:rml_guardsqure_flutter/view/profile_screen.dart';
 import 'package:rml_guardsqure_flutter/view/ticketing_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:kommunicate_flutter/kommunicate_flutter.dart';
+//import 'package:kommunicate_flutter/kommunicate_flutter.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -296,23 +296,23 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Icon(Icons.message),
         onPressed: () async {
           
-          dynamic user = {
-            'userId': "visitor",
-            'password': "",
-            'appId': "e4ca1b65908059f1b8440854be4ae7fa",
-          };
+          // dynamic user = {
+          //   'userId': "visitor",
+          //   'password': "",
+          //   'appId': "e4ca1b65908059f1b8440854be4ae7fa",
+          // };
 
-          dynamic conversationObject = {
-            'appId':
-                'e4ca1b65908059f1b8440854be4ae7fa', // The [APP_ID](https://dashboard.kommunicate.io/settings/install) obtained from kommunicate dashboard.
-            'withPreChat': true
-          };
-          KommunicateFlutterPlugin.buildConversation(user)
-              .then((clientConversationId) {
-            print("Conversation builder success : $clientConversationId");
-          }).catchError((error) {
-            print("Conversation builder error : " + error.toString());
-          });
+          // dynamic conversationObject = {
+          //   'appId':
+          //       'e4ca1b65908059f1b8440854be4ae7fa', // The [APP_ID](https://dashboard.kommunicate.io/settings/install) obtained from kommunicate dashboard.
+          //   'withPreChat': true
+          // };
+          // KommunicateFlutterPlugin.buildConversation(user)
+          //     .then((clientConversationId) {
+          //   print("Conversation builder success : $clientConversationId");
+          // }).catchError((error) {
+          //   print("Conversation builder error : " + error.toString());
+          // });
 
          
 

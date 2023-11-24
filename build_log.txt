@@ -1,0 +1,316 @@
+
+Running Gradle task 'assembleRelease'...                        
+Building with Flutter multidex support enabled.
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 1876 bytes (99.9% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Reading configuration [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/configs/release/libraryjars.pro]
+Reading configuration [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/configs/release/consumer-rules.pro]
+Reading default configuration [dexguard-release-aggressive.pro]
+Reading default configuration [dexguard-common.pro]
+Reading default configuration [dexguard-annotations.pro]
+Reading default configuration [dexguard-androidx.pro]
+Reading default configuration [dexguard-assumptions.pro]
+Reading default configuration [dexguard-hermes.pro]
+Reading configuration [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/android/app/dexguard-project.txt]
+DexGuard, version 9.4.21
+-----------------------------------------------------------------
+!!! A new beta version of DexGuard is available: 9.5.0-beta06 !!!
+-----------------------------------------------------------------
+Using license [/Users/rmltech/Documents/GuardSqurare/dexguard-license.txt].
+Reading default configuration [dexguard-rasp.pro]
+Reading default configuration [dexguard-rasp-common.pro]
+Printing configuration to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/debugging/apk/release/fullconfig.pro]...
+Reading input...
+Reading program apk [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/apk/release/app-release.apk] (filtered)
+Reading library jar [/Users/rmltech/Library/Android/sdk/platforms/android-33/android.jar] (filtered)
+Reading default configuration [dexguard-flutter-internal.pro]
+Initializing...
+Note: io.flutter.view.AccessibilityViewEmbedder$ReflectionAccessors: can't find dynamically referenced class android.util.LongArray
+Note: kotlinx.coroutines.debug.internal.DebugProbesImpl: can't find dynamically referenced class kotlinx.coroutines.debug.internal.ByteBuddyDynamicAttach
+Note: io.flutter.plugins.webviewflutter.WebViewHostApiImpl calls 'WebView.addJavascriptInterface' for some class
+Note: the configuration keeps the entry point 'kotlin.coroutines.AbstractCoroutineContextElement { AbstractCoroutineContextElement(kotlin.coroutines.CoroutineContext$Key); }', but not the descriptor class 'kotlin.coroutines.CoroutineContext$Key'
+Note: the configuration keeps the entry point 'kotlin.coroutines.AbstractCoroutineContextElement { java.lang.Object fold(java.lang.Object,kotlin.jvm.functions.Function2); }', but not the descriptor class 'kotlin.jvm.functions.Function2'
+Note: the configuration keeps the entry point 'kotlin.coroutines.AbstractCoroutineContextElement { kotlin.coroutines.CoroutineContext$Element get(kotlin.coroutines.CoroutineContext$Key); }', but not the descriptor class 'kotlin.coroutines.CoroutineContext$Key'
+Note: the configuration keeps the entry point 'kotlin.coroutines.AbstractCoroutineContextElement { kotlin.coroutines.CoroutineContext minusKey(kotlin.coroutines.CoroutineContext$Key); }', but not the descriptor class 'kotlin.coroutines.CoroutineContext$Key'
+Note: the configuration keeps the entry point 'kotlin.coroutines.AbstractCoroutineContextElement { kotlin.coroutines.CoroutineContext plus(kotlin.coroutines.CoroutineContext); }', but not the descriptor class 'kotlin.coroutines.CoroutineContext'
+Note: the configuration keeps the entry point 'kotlinx.coroutines.android.AndroidExceptionPreHandler { void handleException(kotlin.coroutines.CoroutineContext,java.lang.Throwable); }', but not the descriptor class 'kotlin.coroutines.CoroutineContext'
+Note: there were 6 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (https://platform.guardsquare.com/manual/dexguard/stable/9.4.21/troubleshooting.html#descriptorclass)
+Note: there were 2 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (https://platform.guardsquare.com/manual/dexguard/stable/9.4.21/troubleshooting.html#dynamicalclass)
+Note: there were 1 initializations of Javascript interface classes for WebView.
+      You should consider explicitly keeping the interface methods
+      (using something like '-keepclassmembers ..... { public <methods>; }').
+      (https://platform.guardsquare.com/manual/dexguard/stable/9.4.21/troubleshooting.html#webview)
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes:              5280
+  Final number of library classes:                 1866
+Using license [/Users/rmltech/Documents/GuardSqurare/dexguard-license.txt].
+Marking classes and class members to be kept or encrypted...
+Backporting class files (targeting JDK1.7, API20+)...
+  Number of converted string concatenations:     0
+  Number of converted lambda expressions:        0
+  Number of converted static interface methods:  0
+  Number of converted default interface methods: 0
+  Number of replaced Java 7+ method calls:       0
+  Number of replaced Java 8+ method calls:       0
+  Number of replaced Java 8 stream method calls: 0
+  Number of replaced Java 8 time method calls:   0
+Inlining subroutines...
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing class and class member usage to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/usage.txt]...
+Printing resource usage to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/resourceusage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes:            5268
+  Final number of program classes:               2545
+  Final number of program and injected classes:  2704
+Removing unused resource entries...
+  Original number of resource entries:           5814
+  Final number of resource entries:              5791
+Removing unused meta-data elements...
+  Original number of meta-data elements:         3
+  Final number of meta-data elements:            3
+Removing unused resource files...
+  Original number of resource files:             484
+  Final number of resource files:                484
+Removing unused asset files...
+  Original number of asset files:                12
+  Final number of asset files:                   2
+Removing unused native libraries...
+  Original number of native libraries:           6
+  Final number of native libraries:              6
+Printing inject mapping to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/injectmapping.txt]...
+Injecting code...
+  RASP spray/entrypoint checks enabled:          root, certificatetamper, emulator
+  RASP checkpoints configured:                   0
+  Number of possible injection targets:          54720
+  Final number of injection targets:             47
+Inlining metadata...
+  Number of inlined meta-data elements:          0
+Encrypting...
+Encrypting native libraries...
+Printing native library encryption details to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/nativelibraryencryption.txt]...
+  Number of encrypted native library retrievals: 0
+  Number of encrypted libraries, found in code:  0
+  Total number of encrypted native libraries:    0
+Adding reflection...
+  Number of reflective class references:         41
+  Number of reflective field reads:              2
+  Number of reflective field writes:             0
+  Number of reflective constructor invocations:  0
+  Number of reflective method invocations:       64
+Encrypting strings...
+Printing string encryption details to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/stringencryption.txt]...
+  Number of encrypted string references:         0
+Optimizing (pass 1/2)...
+  Number of inlined resource constants in XML:   140
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  0
+  Number of inlined meta-data elements:          0
+  Number of finalized classes:                   399
+  Number of unboxed enum classes:                0   (disabled)
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           162
+  Number of privatized fields:                   269
+  Number of generalized field accesses:          705
+  Number of specialized field types:             0
+  Number of inlined constant fields:             777
+  Number of privatized methods:                  390
+  Number of staticized methods:                  252
+  Number of finalized methods:                   2964
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        169
+  Number of removed method parameters:           181
+  Number of generalized method invocations:      4499
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         381
+  Number of inlined constant return values:      21
+  Number of inlined short method calls:          2984
+  Number of inlined unique method calls:         1022
+  Number of inlined tail recursion calls:        7
+  Number of merged code blocks:                  60
+  Number of variable peephole optimizations:     10864
+  Number of arithmetic peephole optimizations:   296
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        2
+  Number of branch peephole optimizations:       2436
+  Number of object peephole optimizations:       58
+  Number of string peephole optimizations:       3
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             3416
+  Number of removed instructions:                9852
+  Number of removed local variables:             494
+  Number of removed exception blocks:            235
+  Number of optimized local variable frames:     2145
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2545
+  Final number of program classes:               2458
+  Final number of program and injected classes:  2598
+Removing unused resource entries...
+  Original number of resource entries:           5797
+  Final number of resource entries:              5797
+Removing unused meta-data elements...
+  Original number of meta-data elements:         3
+  Final number of meta-data elements:            3
+Removing unused resource files...
+  Original number of resource files:             484
+  Final number of resource files:                484
+Removing unused asset files...
+  Original number of asset files:                2
+  Final number of asset files:                   2
+Removing unused native libraries...
+  Original number of native libraries:           6
+  Final number of native libraries:              6
+Optimizing (pass 2/2)...
+  Number of inlined resource constants in XML:   10
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  1
+  Number of inlined meta-data elements:          0
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0   (disabled)
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           51
+  Number of privatized fields:                   6
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             444
+  Number of privatized methods:                  5
+  Number of staticized methods:                  11
+  Number of finalized methods:                   26
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        88
+  Number of removed method parameters:           122
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         234
+  Number of inlined constant return values:      14
+  Number of inlined short method calls:          77
+  Number of inlined unique method calls:         27
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  2
+  Number of variable peephole optimizations:     847
+  Number of arithmetic peephole optimizations:   5
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       365
+  Number of object peephole optimizations:       9
+  Number of string peephole optimizations:       1
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             1063
+  Number of removed instructions:                9097
+  Number of removed local variables:             212
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     182
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2458
+  Final number of program classes:               2448
+  Final number of program and injected classes:  2588
+Removing unused resource entries...
+  Original number of resource entries:           5797
+  Final number of resource entries:              5796
+Removing unused meta-data elements...
+  Original number of meta-data elements:         3
+  Final number of meta-data elements:            3
+Removing unused resource files...
+  Original number of resource files:             484
+  Final number of resource files:                484
+Removing unused asset files...
+  Original number of asset files:                2
+  Final number of asset files:                   2
+Removing unused native libraries...
+  Original number of native libraries:           6
+  Final number of native libraries:              6
+Adding decryption classes...
+Obfuscating...
+Obfuscating assets...
+  Number of obfuscated asset file names:         0
+Obfuscating code...
+  Number of obfuscated method bodies:            4
+  Number of virtualized method bodies:           0
+Obfuscating native library names...
+  Number of obfuscated native library file names:2
+Printing mapping to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/mapping.txt]...
+  Number of obfuscated classes:                  1630
+  Number of obfuscated fields:                   4178
+  Number of obfuscated methods:                  4171
+Obfuscating resources...
+Printing resource mapping to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/resourcemapping.txt]...
+  Number of obfuscated resource file names:      484
+  Number of obfuscated resource attributes:      1632
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.CertificateChecker { CertificateChecker(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.aK { aK(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.aL { aL(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.cb { cb(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.dt { dt(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.eU { eU(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.fB { fB(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.gU { gU(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.iQ { iQ(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.if { if(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.ip { ip(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.iu { iu(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.kW { kW(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.ka { ka(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.kl { kl(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.m { m(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.mf { mf(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.mv { mv(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.nQ { nQ(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.oA { oA(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.ov { ov(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.pa { pa(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.pn { pn(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.rW { rW(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.rp { rp(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.rw { rw(); }'
+Note: native library libflutter.so may be referring to method 'com.guardsquare.dexguard.runtime.detection.sw { sw(); }'
+Note: some native libraries appeared to contain hard-coded references to classes, fields, and methods.
+      You should consider keeping these referenced classes, fields, and methods.
+Preparing for class encryption...
+  Number of encrypted class references:          0
+  Number of encrypted field reads:               82
+  Number of encrypted field writes:              82
+  Number of encrypted constructor invocations:   17
+  Number of encrypted method invocations:        138
+  Number of natified method bodies:              17
+  Number of unique natified instructions:        108
+Preparing for class encryption...
+  Number of encrypted class references:          0
+  Number of encrypted field reads:               0
+  Number of encrypted field writes:              0
+  Number of encrypted constructor invocations:   0
+  Number of encrypted method invocations:        57
+Processing < lib/arm64-v8a/libflutter.so, lib/arm64-v8a/libapp.so, lib/x86_64/libflutter.so, lib/x86_64/libapp.so >
+Processing < lib/arm64-v8a/libdgrt.so, lib/x86_64/libdgrt.so >
+Printing resource filename mapping to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/resourcefilenamemapping.txt]...
+Hardening string encryption...
+Encrypting classes...
+Printing class encryption details to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/classencryption.txt]...
+  Number of class encryption groups:             1
+  Number of encrypted classes:                   62
+Splitting classes into separate dex files...
+Printing main dex list to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/mapping/apk/release/maindexlist.txt]...
+  Number of split multidex files:                0
+  Number of split classes:                       0
+Writing output...
+Preparing signed output apk [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/apk/release/app-release-protected.apk] (filtered)
+  Copying resources from program apk [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/apk/release/app-release.apk] (filtered)
+  Writing dex file [classes.dex]...
+    Number of classes:                           2464
+Writing protection report to [/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/build/app/outputs/dexguard/reports/apk/release]...
+Running Gradle task 'assembleRelease'...                          110.1s
+✓  Built build/app/outputs/flutter-apk/app-release.apk (15.5MB).

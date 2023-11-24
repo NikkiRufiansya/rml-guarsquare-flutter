@@ -1,0 +1,2337 @@
+---
+- arm64:
+    - binary:          flutter_nfc_kit
+      functions:
+        - name:            __ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift21swift_task_getCurrentEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19_swift_tsan_acquireEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask18flagAsRunning_slowEv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19_swift_tsan_releaseEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask20flagAsSuspended_slowEv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift24_swift_task_clearCurrentEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_2clEvENUlPvE_8__invokeES4_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL27_initializeVouchersDisabledPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_1clEvENUlPvE_8__invokeES2_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift19_swift_tsan_releaseEPvENK3$_1clEvENUlS0_E_8__invokeES0_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift14VoucherManager9swapToJobEPNS_3JobE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift28swift_Concurrency_fatalErrorEjPKcz
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift4LazyIN12_GLOBAL__N_116ConformanceStateEE19defaultInitCallbackEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_116ConformanceState12cacheFailureEPKvPKN5swift24TargetProtocolDescriptorINS3_9InProcessEEEm
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_1clEvENUlPvE_8__invokeES8_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZL26getExistentialTypeMetadataN5swift23ProtocolClassConstraintEPKNS_14TargetMetadataINS_9InProcessEEEmPKNS_27TargetProtocolDescriptorRefIS2_EEENK3$_3clEvENUlPvE_8__invokeESB_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_2clEvENUlPvE_8__invokeES6_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_122override_equalContextsEPKN5swift23TargetContextDescriptorINS0_9InProcessEEES5_
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift17getRootSuperclassEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift17getRootSuperclassEvENK3$_0clEvENUlPvE_8__invokeES1_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_122getTypeContextIdentityEPKN5swift27TargetTypeContextDescriptorINS0_9InProcessEEE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_116addImageCallbackEPK11mach_header
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_116addImageCallbackEPK11mach_headerl
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift14VoucherManager19vouchersAreDisabledEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper4initER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL9errorNamei
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper7destroyER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper9notifyOneER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper9notifyAllER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper4waitER22_opaque_pthread_cond_tR23_opaque_pthread_mutex_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4initER23_opaque_pthread_mutex_tb
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper7destroyER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4lockER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper6unlockER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper8try_lockER23_opaque_pthread_mutex_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper8try_lockER16os_unfair_lock_s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper4initER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper7destroyER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper8readLockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper12try_readLockER24_opaque_pthread_rwlock_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper9writeLockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper13try_writeLockER24_opaque_pthread_rwlock_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper10readUnlockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper11writeUnlockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _swift_getFunctionTypeMetadataGlobalActorBackDeploy
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_getFunctionTypeMetadataGlobalActorBackDeploy_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC7CoreNFC27NFCTagReaderSessionDelegateAadEP03taglM15DidBecomeActiveyySo0klM0CFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC7CoreNFC27NFCTagReaderSessionDelegateAadEP03taglM0_22didInvalidateWithErrorySo0klM0C_s0S0_ptFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC7CoreNFC27NFCTagReaderSessionDelegateAadEP03taglM0_9didDetectySo0klM0C_SayAD0K0OGtFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_9didDetectySo06NFCTagjK0C_Say7CoreNFC0N0OGtF'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo8NSObjectCMaTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_9didDetectySo06NFCTagjK0C_Say7CoreNFC0N0OGtFyyYbcfU_TA'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$sIegh_IeyBh_TR'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCAC7CoreNFC27NFCTagReaderSessionDelegateAAWlTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_instantiateConcreteTypeFromMangledName
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTg5Tf4gd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypWOb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSD8_VariantV8setValue_6forKeyyq_n_xtFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSlsE3mapySayqd__Gqd__7ElementQzKXEKlF10Foundation4DataV_SSTg5015$s10Foundation4D90V15flutter_nfc_kitE16hexEncodedString7optionsSSAcDE18HexEncodingOptionsV_tFSSs5UInt8VXEfU_SSTf1cn_nTf4ng_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSaySSGSayxGSKsWl'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s10Foundation4DataV15_RepresentationOWOe'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSD11removeValue6forKeyq_Sgx_tFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypSgWOhTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_9didDetectySo06NFCTagjK0C_Say7CoreNFC0N0OGtFys5Error_pSgcfU0_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_9didDetectySo06NFCTagjK0C_Say7CoreNFC0N0OGtFys5Error_pSgcfU0_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s7CoreNFC6NFCTagOSgWOf'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s7CoreNFC6NFCTagOSgWOcTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypSgIegn_SgWOy'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_project_boxed_opaque_existential_0Tm
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_destroy_boxed_opaque_existential_0Tm
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$sypSgIegn_SgWOe'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_9didDetectySo06NFCTagjK0C_Say7CoreNFC0N0OGtFys5Error_pSgcfU0_ySo13NFCNDEFStatusV_SiAMtcfU_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo13NFCNDEFStatusVSis5Error_pSgIegyyg_ABSiSo7NSErrorCSgIeyByyy_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.153
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.154
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_9didDetectySo06NFCTagjK0C_Say7CoreNFC0N0OGtFys5Error_pSgcfU0_ySo13NFCNDEFStatusV_SiAMtcfU_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.151
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.64
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV4copyyyFSS_ypTg5'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypWOc'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSaySSGMaTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV12mutatingFind_8isUniques10_HashTableV6BucketV6bucket_Sb5foundtx_SbtFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.61
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$sSay8Dispatch0A13WorkItemFlagsVGMaTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.69
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.70
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.67
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_22didInvalidateWithErrorySo06NFCTagjK0C_s0O0_ptFTf4dnn_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sS2Ss7CVarArg10FoundationWl'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSCAcDP03_nsB0So0F0CvgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSCAcDP03_nsB0xSo0F0C_tcfCTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCReaderErrorVMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthIntegerPWT'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sS2is17FixedWidthIntegersWl'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SYWT'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCReaderErrorVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCReaderErrorVSYSCSY8rawValue03RawD0QzvgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_bG8ProtocolPWT'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCReaderErrorV10Foundation01_B12CodeProtocolSC01_B4TypeAcDP_AC21_BridgedStoredNSErrorPWT'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCReaderErrorV10Foundation01_B12CodeProtocolSCSQWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCReaderErrorVSQSCSQ2eeoiySbx_xtFZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSCSHWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVSHSCSH9hashValueSivgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVSHSCSH4hash4intoys6HasherVz_tFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVSHSCSH13_rawHashValue4seedS2i_tFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVSHSCSQWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVSQSCSQ2eeoiySbx_xtFZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableB0PWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation021_ObjectiveCBridgeableB0SCAcDP15_bridgedNSErrorxSgSo0G0Ch_tcfCTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation021_ObjectiveCBridgeableB0SCs0B0PWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomF0PWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation13CustomNSErrorSCAcDP11errorDomainSSvgZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation13CustomNSErrorSCAcDP9errorCodeSivgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation13CustomNSErrorSCAcDP13errorUserInfoSDySSypGvgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeV10Foundation13CustomNSErrorSCs0B0PWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVs0B0SCsACP7_domainSSvgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVs0B0SCsACP5_codeSivgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVs0B0SCsACP9_userInfoyXlSgvgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSC14NFCReaderErrorLeVs0B0SCsACP19_getEmbeddedNSErroryXlSgyFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCMr'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctF'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC31tagReaderSessionDidBecomeActiveyySo06NFCTagjK0CF'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC16tagReaderSession_22didInvalidateWithErrorySo06NFCTagjK0C_s0O0_ptF'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSDyq_SgxcigSS_ypSgTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypSgWObTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit17dataWithHexString3hex10Foundation4DataVSS_tF'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo12FlutterErrorC4code7message7detailsABSS_SSSgypSgtcfCTO'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s10Foundation4DataV15_RepresentationOWOy'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5UInt8VAMs5Error_pSgtcfU_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s10Foundation4DataVs5UInt8VAEs5Error_pSgIeggyyg_So6NSDataCA2ESo7NSErrorCSgIeyByyyy_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU0_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s10Foundation4DataVs5Error_pSgIeggg_So6NSDataCSo7NSErrorCSgIeyByy_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU1_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys6ResultOySo23NFCISO15693ResponseFlagV_10Foundation4DataVSgts5Error_pGcfU2_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU3_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU3_TA.35'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU4_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU4_TA.22'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFySo14NFCNDEFMessageCSg_s5Error_pSgtcfU5_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo14NFCNDEFMessageCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sS2SSysWl'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s10Foundation4DataVSgWOe'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSDyq_SgxcigSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFSo14NFCNDEFPayloadC_Tg5'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFSo14NFCNDEFPayloadC_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU6_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU7_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU4_Tm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.5
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.2
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo14NFCNDEFPayloadC_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo14NFCNDEFPayloadC_Tg5Tf4nnd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSo14NFCNDEFPayloadC_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo14NFCNDEFPayloadC_Tg5Tf4d_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.10
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.11
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFySo14NFCNDEFMessageCSg_s5Error_pSgtcfU5_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo14NFCNDEFPayloadC_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSypG_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.8
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.23
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.24
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.16
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.17
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.20
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.14
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.36
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.37
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.29
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.30
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.33
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU3_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.27
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys6ResultOySo23NFCISO15693ResponseFlagV_10Foundation4DataVSgts5Error_pGcfU2_TATm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys6ResultOySo23NFCISO15693ResponseFlagV_10Foundation4DataVSgts5Error_pGcfU2_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss15CollectionOfOneVys5UInt8VGAByxG10Foundation15ContiguousBytesAgDRszlWl'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.40
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.40Tm
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.45
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.46
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.43
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.51
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.52
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU0_Tm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.49
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.57
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.58
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5UInt8VAMs5Error_pSgtcfU_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.55
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCfD'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCMU'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$syXlSgIeyBy_ypSgIegn_TRTA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU1_TA.132'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5UInt8VAMs5Error_pSgtcfU_TA.146'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU0_TA.139'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys6ResultOySo23NFCISO15693ResponseFlagV_10Foundation4DataVSgts5Error_pGcfU2_TA.128'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU3_TA.121'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation4DataV_s5Error_pSgtcfU3_TA.114'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU4_TA.107'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU4_TA.100'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFySo14NFCNDEFMessageCSg_s5Error_pSgtcfU5_TA.93'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU6_TA.86'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6handle_6resultySo0E10MethodCallC_yypSgctFys5Error_pSgcfU7_TA.79'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.80
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.81
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.77
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.87
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.88
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.84
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.94
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.95
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.91
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.98
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.101
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.102
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.108
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.109
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.105
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.112
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.115
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.116
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.122
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.123
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.119
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.126
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.140
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.141
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.137
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.147
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.148
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.144
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.133
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.134
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.130
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$syXlSgIeyBy_ypSgIegn_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.74
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC8register4withySo0eH9Registrar_p_tFZTf4nd_n'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC18multipleTagMessageSSSgvpfi'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC3tag7CoreNFC6NFCTagOSgvpfi'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC6resultyypSgcSgvpfi'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC7sessionSo19NFCTagReaderSessionCSgvpfi'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginC8register4withySo0eH9Registrar_p_tFZ'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCACycfC'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s15flutter_nfc_kit24SwiftFlutterNfcKitPluginCACycfc'
+          isValidCallback: false
+          isValidAUIDGetter: false
+    - binary:          webview_flutter_wkwebview
+      functions:
+        - name:            '___49+[FLTWebViewFlutterPlugin registerWithRegistrar:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKHttpCookieStoreHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKNavigationDelegateHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSObjectHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKPreferencesHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKScriptMessageHandlerHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFUIScrollViewHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKUIDelegateHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFUIViewHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKUserContentControllerHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebsiteDataStoreHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebViewConfigurationHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebViewHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSUrlHostApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSUrlHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFNSUrlHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _GetNullableObjectAtIndex
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _wrapResult
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebViewHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_5
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_6
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_7
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_8
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_9
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_10
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_11
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_12
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_13
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_14
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_15
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_16
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_17
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_18
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke.424
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_2.427
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiSetup_block_invoke_19
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewHostApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___96-[FWFWebViewHostApiImpl evaluateJavaScriptForWebViewWithIdentifier:javaScriptString:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSErrorDataFromNativeNSError
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNativeNSURLRequestFromRequestData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___61-[FWFWebView observeValueForKeyPath:ofObject:change:context:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___82-[FWFObjectFlutterApiImpl observeValueForObject:keyPath:object:change:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNSKeyValueChangeKeyEnumDataFromNativeNSKeyValueChangeKey
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___82-[FWFObjectFlutterApiImpl observeValueForObject:keyPath:object:change:completion:]_block_invoke_2'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSUrlFlutterApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___54-[FWFNSUrlFlutterApi createWithIdentifier:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSObjectFlutterApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___64-[FWFNSObjectFlutterApi disposeObjectWithIdentifier:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFNSObjectFlutterApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___121-[FWFNSObjectFlutterApi observeValueForObjectWithIdentifier:keyPath:objectIdentifier:changeKeys:changeValues:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebViewConfigurationHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewConfigurationHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewConfigurationHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewConfigurationHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewConfigurationHostApiSetup_block_invoke_4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewConfigurationHostApiSetup_block_invoke_5
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebViewConfigurationHostApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeWKAudiovisualMediaTypeFromEnumData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___74-[FWFWebViewConfiguration observeValueForKeyPath:ofObject:change:context:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebsiteDataStoreHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebsiteDataStoreHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebsiteDataStoreHostApiSetup_block_invoke.214
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebsiteDataStoreHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebsiteDataStoreHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKWebsiteDataStoreHostApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeWKWebsiteDataTypeFromEnumData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___105-[FWFWebsiteDataStoreHostApiImpl removeDataFromDataStoreWithIdentifier:ofTypes:modifiedSince:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48s56b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48s56s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___105-[FWFWebsiteDataStoreHostApiImpl removeDataFromDataStoreWithIdentifier:ofTypes:modifiedSince:completion:]_block_invoke_2'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFWKUserContentControllerHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiSetup_block_invoke_4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiSetup_block_invoke_5
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiSetup_block_invoke_6
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUserContentControllerHostApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeWKUserScriptFromScriptData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFUIViewHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFUIViewHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFUIViewHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKUIDelegateHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUIDelegateHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___102-[FWFUIDelegate webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___91-[FWFUIDelegate webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKSecurityOriginDataFromNativeWKSecurityOrigin
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKFrameInfoDataFromNativeWKFrameInfo
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKMediaCaptureTypeDataFromNativeWKMediaCaptureType
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___123-[FWFUIDelegateFlutterApiImpl requestMediaCapturePermissionForDelegateWithIdentifier:webView:origin:frame:type:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNativeWKPermissionDecisionFromData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKNavigationActionDataFromNativeWKNavigationAction
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSUrlRequestDataFromNativeNSURLRequest
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___108-[FWFUIDelegateFlutterApiImpl onCreateWebViewForDelegate:webView:configuration:navigationAction:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKWebViewConfigurationFlutterApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___71-[FWFWKWebViewConfigurationFlutterApi createWithIdentifier:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKUIDelegateFlutterApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___131-[FWFWKUIDelegateFlutterApi requestMediaCapturePermissionForDelegateWithIdentifier:webViewIdentifier:origin:frame:type:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKUIDelegateFlutterApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___140-[FWFWKUIDelegateFlutterApi onCreateWebViewForDelegateWithIdentifier:webViewIdentifier:configurationIdentifier:navigationAction:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___60-[FWFObject observeValueForKeyPath:ofObject:change:context:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFUIScrollViewHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFUIScrollViewHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFUIScrollViewHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFUIScrollViewHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFUIScrollViewHostApiSetup_block_invoke_4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKScriptMessageHandlerHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKScriptMessageHandlerHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___73-[FWFScriptMessageHandler userContentController:didReceiveScriptMessage:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKScriptMessageDataFromNativeWKScriptMessage
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKScriptMessageHandlerFlutterApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___138-[FWFWKScriptMessageHandlerFlutterApi didReceiveScriptMessageForHandlerWithIdentifier:userContentControllerIdentifier:message:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKScriptMessageHandlerFlutterApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFWKPreferencesHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKPreferencesHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKPreferencesHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNSObjectHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFNSObjectHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFNSObjectHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFNSObjectHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFNSObjectHostApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeNSKeyValueObservingOptionsFromEnumData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKNavigationDelegateHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKNavigationDelegateHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___62-[FWFNavigationDelegate webViewWebContentProcessDidTerminate:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___72-[FWFNavigationDelegate webView:didFailProvisionalNavigation:withError:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___61-[FWFNavigationDelegate webView:didFailNavigation:withError:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___81-[FWFNavigationDelegate webView:decidePolicyForNavigationAction:decisionHandler:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFNativeWKNavigationActionPolicyFromEnumData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___63-[FWFNavigationDelegate webView:didStartProvisionalNavigation:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___53-[FWFNavigationDelegate webView:didFinishNavigation:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKNavigationDelegateFlutterApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___128-[FWFWKNavigationDelegateFlutterApi webViewWebContentProcessDidTerminateForDelegateWithIdentifier:webViewIdentifier:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKNavigationDelegateFlutterApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___126-[FWFWKNavigationDelegateFlutterApi didFailProvisionalNavigationForDelegateWithIdentifier:webViewIdentifier:error:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___115-[FWFWKNavigationDelegateFlutterApi didFailNavigationForDelegateWithIdentifier:webViewIdentifier:error:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___140-[FWFWKNavigationDelegateFlutterApi decidePolicyForNavigationActionForDelegateWithIdentifier:webViewIdentifier:navigationAction:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___125-[FWFWKNavigationDelegateFlutterApi didStartProvisionalNavigationForDelegateWithIdentifier:webViewIdentifier:URL:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___115-[FWFWKNavigationDelegateFlutterApi didFinishNavigationForDelegateWithIdentifier:webViewIdentifier:URL:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKHttpCookieStoreHostApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKHttpCookieStoreHostApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKHttpCookieStoreHostApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKHttpCookieStoreHostApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FWFWKHttpCookieStoreHostApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeNSHTTPCookieFromCookieData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___83-[FWFHTTPCookieStoreHostApiImpl setCookieForStoreWithIdentifier:cookie:completion:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeNSHTTPCookiePropertyKeyFromEnumData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___49+[FLTWebViewFlutterPlugin registerWithRegistrar:]_block_invoke_2'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___49+[FLTWebViewFlutterPlugin registerWithRegistrar:]_block_invoke_3'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___39-[FWFInstanceManager weakInstanceCount]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40r
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40r
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___41-[FWFInstanceManager strongInstanceCount]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___39-[FWFInstanceManager containsInstance:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48r
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48r
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___Block_byref_object_copy_
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___Block_byref_object_dispose_
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___63-[FWFInstanceManager identifierWithStrongReferenceForInstance:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___44-[FWFInstanceManager instanceForIdentifier:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___51-[FWFInstanceManager removeInstanceWithIdentifier:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___45-[FWFInstanceManager addHostCreatedInstance:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___60-[FWFInstanceManager addDartCreatedInstance:withIdentifier:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___26-[FWFInstanceManager init]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___clang_at_available_requires_core_foundation_framework
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FWFNativeWKUserScriptInjectionTimeFromEnumData
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FWFWKNavigationTypeFromNativeWKNavigationType
+          isValidCallback: false
+          isValidAUIDGetter: false
+    - binary:          camera_avfoundation
+      functions:
+        - name:            '___70-[CameraPlugin createCameraOnSessionQueueWithCreateMethodCall:result:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48w
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48w
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___70-[CameraPlugin createCameraOnSessionQueueWithCreateMethodCall:result:]_block_invoke_2'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___59-[FLTCam startImageStreamWithMessenger:imageStreamHandler:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32w
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32w
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___59-[FLTCam startImageStreamWithMessenger:imageStreamHandler:]_block_invoke_2'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___57-[FLTThreadSafeEventChannel setStreamHandler:completion:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLTEnsureToRunOnMainQueue
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___57-[FLTImageStreamHandler onListenWithArguments:eventSink:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32b40w
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40w
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___47-[FLTImageStreamHandler onCancelWithArguments:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLTGetFLTFocusModeForString
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTGetFLTExposureModeForString
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTGetFLTFlashModeForString
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTGetAVCaptureFlashModeForFLTFlashMode
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTGetUIDeviceOrientationForString
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___39-[FLTCam stopVideoRecordingWithResult:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___25-[FLTCam copyPixelBuffer]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40r
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40r
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___61-[FLTCam captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___61-[FLTCam captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.81'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___24-[FLTCam captureToFile:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___24-[FLTCam captureToFile:]_block_invoke_2'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40w
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___69-[FLTSavePhotoDelegate captureOutput:didFinishProcessingPhoto:error:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___76-[FLTSavePhotoDelegate handlePhotoCaptureResultWithError:photoDataProvider:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40b48w
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTGetFLTResolutionPresetForString
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___46-[CameraPlugin handleCreateMethodCall:result:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTRequestCameraPermissionWithCompletionHandler
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLTRequestPermission
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLTRequestPermission_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___46-[CameraPlugin handleCreateMethodCall:result:]_block_invoke_2'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTRequestAudioPermissionWithCompletionHandler
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLTGetVideoFormatFromString
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___45-[CameraPlugin handleMethodCallAsync:result:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLTGetStringForFLTExposureMode
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLTGetStringForFLTFocusMode
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___53-[FLTThreadSafeMethodChannel invokeMethod:arguments:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___40-[CameraPlugin handleMethodCall:result:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___35-[FLTThreadSafeFlutterResult send:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLTGetStringForUIDeviceOrientation
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___35-[CameraPlugin orientationChanged:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___50-[FLTThreadSafeTextureRegistry unregisterTexture:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___54-[FLTThreadSafeTextureRegistry textureFrameAvailable:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___59-[FLTThreadSafeTextureRegistry registerTexture:completion:]_block_invoke'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___clang_at_available_requires_core_foundation_framework
+          isValidCallback: true
+          isValidAUIDGetter: false
+    - binary:          shared_preferences_foundation
+      functions:
+        - name:            __ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift21swift_task_getCurrentEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19_swift_tsan_acquireEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask18flagAsRunning_slowEv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19_swift_tsan_releaseEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask20flagAsSuspended_slowEv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift24_swift_task_clearCurrentEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_2clEvENUlPvE_8__invokeES4_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL27_initializeVouchersDisabledPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_1clEvENUlPvE_8__invokeES2_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift19_swift_tsan_releaseEPvENK3$_1clEvENUlS0_E_8__invokeES0_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift14VoucherManager9swapToJobEPNS_3JobE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift28swift_Concurrency_fatalErrorEjPKcz
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift4LazyIN12_GLOBAL__N_116ConformanceStateEE19defaultInitCallbackEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_116ConformanceState12cacheFailureEPKvPKN5swift24TargetProtocolDescriptorINS3_9InProcessEEEm
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_1clEvENUlPvE_8__invokeES8_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZL26getExistentialTypeMetadataN5swift23ProtocolClassConstraintEPKNS_14TargetMetadataINS_9InProcessEEEmPKNS_27TargetProtocolDescriptorRefIS2_EEENK3$_3clEvENUlPvE_8__invokeESB_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_2clEvENUlPvE_8__invokeES6_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_122override_equalContextsEPKN5swift23TargetContextDescriptorINS0_9InProcessEEES5_
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift17getRootSuperclassEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift17getRootSuperclassEvENK3$_0clEvENUlPvE_8__invokeES1_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_122getTypeContextIdentityEPKN5swift27TargetTypeContextDescriptorINS0_9InProcessEEE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_116addImageCallbackEPK11mach_header
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN12_GLOBAL__N_116addImageCallbackEPK11mach_headerl
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZL24registerAddImageCallbackPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZL16addImageCallbackPK11mach_headerl
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZL29installGetClassHook_untrustedv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL35getObjCClassByMangledName_untrustedPKcPP10objc_class
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift14VoucherManager19vouchersAreDisabledEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper4initER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL9errorNamei
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper7destroyER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper9notifyOneER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper9notifyAllER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper4waitER22_opaque_pthread_cond_tR23_opaque_pthread_mutex_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4initER23_opaque_pthread_mutex_tb
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper7destroyER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4lockER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper6unlockER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper8try_lockER23_opaque_pthread_mutex_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper8try_lockER16os_unfair_lock_s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper4initER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper7destroyER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper8readLockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper12try_readLockER24_opaque_pthread_rwlock_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper9writeLockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper13try_writeLockER24_opaque_pthread_rwlock_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper10readUnlockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper11writeUnlockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _swift_getFunctionTypeMetadataGlobalActorBackDeploy
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_getFunctionTypeMetadataGlobalActorBackDeploy_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _swift_getFunctionReplacement50
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _swift_getOrigOfReplaceable50
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginC8register4withySo07FlutterF9Registrar_p_tFZ'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfC'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfc'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginCMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginCfD'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZTf4nnd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation15UserDefaultsApi_pSgWOh'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_instantiateConcreteTypeFromMangledName
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation15UserDefaultsApi_pSgWOcTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation15UserDefaultsApi_pWOb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation15UserDefaultsApi_pWOc'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypSgAAIegn_Iegng_yXlSgABIeyBy_IeyByy_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_destroy_boxed_opaque_existential_1Tm
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation15UserDefaultsApi_pSgWOhTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU0_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU1_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU2_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU3_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU4_TA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU4_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypWOb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation10nilOrValue33_CCD8851934D588835E18C29B514F4159LLyxSgypSglFSaySSG_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginC5clear6prefix9allowListSbSS_SaySSGSgtFTf4nnd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypSgWOb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs6prefix9allowListSDySSypGSS_SaySSGSgtFTf4nnd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSS3key_yp5valuetSgWOb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypWOc'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_destroy_boxed_opaque_existential_0
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTg5Tf4gd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTg5Tf4gn_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSh8containsySbxFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_NativeDictionaryV4copyyyFSS_ypTg5'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss10_NativeSetV4copyyyFSS_Tg5'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$sSS_yptWOc'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo6NSNullCMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.5
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU3_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_ypSSSgypSgTg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSD8IteratorV8_VariantOyxq___GSHRzr0_lWOe'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSSSg_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sypSgWOd'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSSSg_Tg5'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.2
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.10
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.11
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU2_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_project_boxed_opaque_existential_0
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.8
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.16
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.17
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU1_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.14
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.22
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.23
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU0_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.20
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _block_copy_helper.28
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _block_destroy_helper.29
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$syXlSgIeyBy_ypSgIegn_TRTA'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$syXlSgIeyBy_ypSgIegn_TR'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.32
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZyypSg_yAJctcfU_'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _objectdestroy.26
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupCfD'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s29shared_preferences_foundation20UserDefaultsApiSetupCMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+    - binary:          local_auth_ios
+      functions:
+        - name:            _GetNullableObjectAtIndex
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___97-[FLTLocalAuthPlugin showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '___97-[FLTLocalAuthPlugin showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:]_block_invoke.82'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___65-[FLTLocalAuthPlugin authenticateWithOptions:strings:completion:]_block_invoke'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48s56b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48s56s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '___65-[FLTLocalAuthPlugin authenticateWithOptions:strings:completion:]_block_invoke_2'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s40s48s56s64b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s40s48s56s64s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _FLALocalAuthApiSetup
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _FLALocalAuthApiGetCodec
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLALocalAuthApiSetup_block_invoke
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLALocalAuthApiSetup_block_invoke.115
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLALocalAuthApiSetup_block_invoke_2
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLALocalAuthApiSetup_block_invoke_3
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLALocalAuthApiSetup_block_invoke_4
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32b
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___destroy_helper_block_e8_32s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _wrapResult
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___copy_helper_block_e8_32s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___FLALocalAuthApiGetCodec_block_invoke
+          isValidCallback: true
+          isValidAUIDGetter: false
+    - binary:          Runner
+      functions:
+        - name:            __ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift21swift_task_getCurrentEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19_swift_tsan_acquireEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask18flagAsRunning_slowEv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19_swift_tsan_releaseEPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift9AsyncTask20flagAsSuspended_slowEv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift24_swift_task_clearCurrentEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_2clEvENUlPvE_8__invokeES4_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL27_initializeVouchersDisabledPv
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_1clEvENUlPvE_8__invokeES2_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift19_swift_tsan_releaseEPvENK3$_1clEvENUlS0_E_8__invokeES0_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift14VoucherManager9swapToJobEPNS_3JobE
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift28swift_Concurrency_fatalErrorEjPKcz
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift14VoucherManager19vouchersAreDisabledEv
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper4initER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZL9errorNamei
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper7destroyER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper9notifyOneER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper9notifyAllER22_opaque_pthread_cond_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift23ConditionPlatformHelper4waitER22_opaque_pthread_cond_tR23_opaque_pthread_mutex_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4initER23_opaque_pthread_mutex_tb
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper7destroyER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper4lockER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper6unlockER23_opaque_pthread_mutex_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper8try_lockER23_opaque_pthread_mutex_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift19MutexPlatformHelper8try_lockER16os_unfair_lock_s
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper4initER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper7destroyER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper8readLockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper12try_readLockER24_opaque_pthread_rwlock_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper9writeLockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper13try_writeLockER24_opaque_pthread_rwlock_t
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper10readUnlockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            __ZN5swift27ReadWriteLockPlatformHelper11writeUnlockER24_opaque_pthread_rwlock_t
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s6Runner11my_callbackyyF'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            _main
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            _my_callback
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCfD'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$s6Runner11AppDelegateCfD'
+          isValidCallback: true
+          isValidAUIDGetter: false
+        - name:            '_$s6Runner11AppDelegateCMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaMa'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaABSHSCWlTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH9hashValueSivgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH4hash4intoys6HasherVz_tFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH13_rawHashValue4seedS2i_tFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH9hashValueSivgTWTm'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSQWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSQSCSQ2eeoiySbx_xtFZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas35_HasCustomAnyHashableRepresentationSCsACP03_tofgH0s0gH0VSgyFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCSYWb'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSYSCSY8rawValuexSg03RawF0Qz_tcfCTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyaSYSCSY8rawValue03RawF0QzvgTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP09_bridgeToE1C01_E5CTypeQzyFTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTW'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE024_conditionallyBridgeFromD1C_6resultSbAD_01_D5CTypeQZ_xSgztFZSo29UIApplicationLaunchOptionsKeya_Tgq5Tf4nnd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE016_forceBridgeFromD1C_6resultyAD_01_D5CTypeQZ_xSgztFZSo29UIApplicationLaunchOptionsKeya_Tgq5Tf4nnd_n'
+          isValidCallback: false
+          isValidAUIDGetter: false
+        - name:            ___swift_instantiateConcreteTypeFromMangledName
+          isValidCallback: false
+          isValidAUIDGetter: false
+...

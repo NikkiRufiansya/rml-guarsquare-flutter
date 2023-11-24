@@ -1,0 +1,115 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+before_all do
+  ENV["APPKNOX_ACCESS_TOKEN"] = "156e23bde8e3506cc5fd1bc8ae49b9d2a2d689ab"
+  ENV["testers"]="nikkirufiansya2@gmail.com, technicalrml2023@gmail.com,technical@rml.co.id,rizkyprad.putra@gmail.com"
+  ENV["app"]="1:954269003292:ios:65c59efb471d7c916239d9"
+  ENV["FASTLANE_USER"]="technical@rml.co.id"
+  ENV["FASTLANE_PASSWORD"]="Raditya@123"
+end
+
+platform :ios do
+
+
+
+  #upload to test-flight / app-store
+  lane :app_store do
+    build_app(
+      scheme: "Runner",
+      clean: true,
+      include_bitcode: false,
+      toolchain: "com.guardsquare.ixguard",
+      configuration: "Release",
+      export_method: "app-store",
+      export_options: {
+        method: "app-store",
+        compileBitcode: false,
+        architecture: "arm64",
+      }
+    )
+  end
+
+  # build add-hoc
+  lane :adhoc do
+      build_app(
+        scheme: "Runner",
+        clean: true,
+        include_bitcode: false,
+        toolchain: "com.guardsquare.ixguard",
+        configuration: "Release",
+        export_method: "ad-hoc",
+        export_options: {
+          method: "ad-hoc",
+          compileBitcode: false,
+          architecture: "arm64",
+        }
+      )
+  end
+
+  lane :development do
+    build_app(
+        scheme: "Runner",
+        clean: true,
+        include_bitcode: false,
+        toolchain: "com.guardsquare.ixguard",
+        configuration: "Release",
+        export_method: "development",
+        export_options: {
+          method: "development",
+          compileBitcode: false,
+          architecture: "arm64",
+        }
+      )
+  end
+
+  lane :appknox do
+    sh("/usr/local/bin/appknox whoami")
+    sh("fileId=`/usr/local/bin/appknox upload /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa`")    
+  end
+
+  lane :ixguard do 
+    sh("ixguard -config=/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/ig-config.yml -o=/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/Runner.ipa")
+  end
+
+  lane :remove_ipa do
+    sh("rm -f /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa")
+  end
+
+
+  lane :build_appstore do
+    remove_ipa()
+    app_store()
+    ixguard()
+  end
+
+  lane :build_adhoc do
+    remove_ipa()
+    adhoc()
+    ixguard()
+  end
+
+  lane :build_dev do
+    remove_ipa()
+    development()
+    ixguard()
+
+  end
+
+
+end
+

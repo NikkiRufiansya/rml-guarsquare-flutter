@@ -1,9 +1,11 @@
--verbose
+#-verbose
 #-addconfigurationdebugging
 
--raspchecks root, emulator
-#-raspcontinueon none
-#-raspflags root 71671
+-raspchecks root, emulator, certificatetamper
+-raspcontinueon none
+
+-raspcertificatehash "17:BB:04:01:C7:A3:7E:BE:12:43:52:C2:42:85:6A:B1:09:B6:B1:64:C7:F3:69:EB:B9:C8:CF:1C:AB:CB:C6:3D"
+
 
 
 -keep class io.flutter.**
@@ -11,4 +13,12 @@
 -encryptnativelibraries libflutter.so
 
 
+
+-raspcallback emulator class com.rmldemo.guardsquare.MainActivity{
+    public static void emulator(long);
+}
+
+-raspcallback root class com.rmldemo.guardsquare.MainActivity{
+    public static void root(long);
+}
 
