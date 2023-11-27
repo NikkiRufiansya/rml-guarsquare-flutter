@@ -1,24 +1,30 @@
 #-verbose
 #-addconfigurationdebugging
 
--raspchecks root, emulator, certificatetamper
--raspcontinueon none
+#-raspchecks root
+#-raspchecks emulator
+#-raspchecks certificatetamper
+#-raspcontinueon none
 
--raspcertificatehash "17:BB:04:01:C7:A3:7E:BE:12:43:52:C2:42:85:6A:B1:09:B6:B1:64:C7:F3:69:EB:B9:C8:CF:1C:AB:CB:C6:3D"
-
-
-
--keep class io.flutter.**
-
--encryptnativelibraries libflutter.so
+#-raspcertificatehash "17:BB:04:01:C7:A3:7E:BE:12:43:52:C2:42:85:6A:B1:09:B6:B1:64:C7:F3:69:EB:B9:C8:CF:1C:AB:CB:C6:3D"
 
 
 
--raspcallback emulator class com.rmldemo.guardsquare.MainActivity{
-    public static void emulator(long);
-}
+#-keep class io.flutter.**
 
--raspcallback root class com.rmldemo.guardsquare.MainActivity{
-    public static void root(long);
-}
+#-encryptnativelibraries libflutter.so
+
+#-raspclassfilter class !kotlin.reflect.jvm.internal.**
+#-raspclassfilter class !kotlin.reflect.jvm.internal.impl.metadata**
+#-keep class kotlin.collections.builders.ListBuilder
+
+
+
+#-raspcallback emulator class com.rmldemo.guardsquare.MainActivity{
+#    public static void emulator(long);
+#}
+
+#-raspcallback root class com.rmldemo.guardsquare.MainActivity{
+#    public static void root(long);
+#}
 

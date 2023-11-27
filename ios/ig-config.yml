@@ -1,5 +1,5 @@
 debug:
-  autoconfigure: false
+  autoconfigure: true
   instrumentation: 
     enabled: true
   verbosity: debug
