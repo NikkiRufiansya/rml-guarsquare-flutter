@@ -1,18 +1,22 @@
-#-verbose
+-verbose
 #-addconfigurationdebugging
+-dontwarn
 
 #-raspchecks root
 #-raspchecks emulator
-#-raspchecks certificatetamper
-#-raspcontinueon none
+-raspchecks certificatetamper
+-raspcontinueon none
 
-#-raspcertificatehash "17:BB:04:01:C7:A3:7E:BE:12:43:52:C2:42:85:6A:B1:09:B6:B1:64:C7:F3:69:EB:B9:C8:CF:1C:AB:CB:C6:3D"
+-raspcertificatehash "17:BB:04:01:C7:A3:7E:BE:12:43:52:C2:42:85:6A:B1:09:B6:B1:64:C7:F3:69:EB:B9:C8:CF:1C:AB:CB:C6:3D"
 
+-keepresourcefiles assets/**
 
+#-dontnatify
 
-#-keep class io.flutter.**
+-keep class io.flutter.**
 
-#-encryptnativelibraries libflutter.so
+-encryptnativelibraries libflutter.so
+
 
 #-raspclassfilter class !kotlin.reflect.jvm.internal.**
 #-raspclassfilter class !kotlin.reflect.jvm.internal.impl.metadata**

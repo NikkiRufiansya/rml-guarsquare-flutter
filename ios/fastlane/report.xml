@@ -5,37 +5,37 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000189">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000226">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: Switch to ios remove_ipa lane" time="7.9e-05">
+      <testcase classname="fastlane.lanes" name="1: Switch to ios remove_ipa lane" time="7.7e-05">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: rm -f /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa" time="0.010094">
+      <testcase classname="fastlane.lanes" name="2: rm -f /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa" time="0.009929">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: Switch to ios development lane" time="0.000829">
+      <testcase classname="fastlane.lanes" name="3: Switch to ios development lane" time="0.000198">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: build_app" time="64.707475">
+      <testcase classname="fastlane.lanes" name="4: build_app" time="78.400184">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: Switch to ios ixguard lane" time="0.000377">
+      <testcase classname="fastlane.lanes" name="5: Switch to ios ixguard lane" time="0.000507">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: ixguard -config=/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/ig-config.yml -o=/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/Runner.ipa" time="182.908973">
+      <testcase classname="fastlane.lanes" name="6: ixguard -config=/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/ig-config.yml -o=/Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/rml-flutter-demo-protected.ipa /Users/rmltech/Documents/flutter-project/rml_guardsqure_flutter/ios/Runner.ipa" time="160.382632">
         
       </testcase>
     

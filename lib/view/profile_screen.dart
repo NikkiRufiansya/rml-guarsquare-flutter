@@ -134,19 +134,27 @@ class _ProfileScreenState extends State<ProfileScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: ImageIcon(
+              AssetImage("assets/home.png")
+            ),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_month),
+            icon: ImageIcon(
+              AssetImage("assets/agenda.png")
+            ),
             label: 'Agenda',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_today),
+            icon: ImageIcon(
+              AssetImage("assets/ticketing.png")
+            ),
             label: 'Ticketing',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
+            icon: ImageIcon(
+              AssetImage("assets/user.png")
+            ),
             label: 'User',
           ),
         ],

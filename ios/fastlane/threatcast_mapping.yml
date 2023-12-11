@@ -1,0 +1,252 @@
+---
+api:             v1
+product:         iXGuard
+bundleID:        com.rmldemo.guardsquare
+appVersion:      3.0.1
+appBuildID:      5A12CE6D-2AC6-4D0F-8622-AC6579CFD842
+functions:
+  "1000281786":    _ZN5swift27ReadWriteLockPlatformHelper4initER24_opaque_pthread_rwlock_t
+  "1012207741":    _ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s
+  "1020757374":    pthread_cond_wait
+  "1027916043":    _ZN5swift23ConditionPlatformHelper9notifyAllER22_opaque_pthread_cond_t
+  "1032078373":    zSu9Vj2vlI0d5WTwa
+  "1033567138":    HmXJLdjdfbgEe8FJp
+  "1035441607":    pthread_rwlock_wrlock
+  "1050395806":    'base witness table accessor for Swift.RawRepresentable in __C.UIApplicationLaunchOptionsKey : Swift._SwiftNewtypeWrapper in __C_Synthesized'
+  "1051443494":    kQ2s_2CQWCSWj2k
+  "1053894094":    pthread_rwlock_trywrlock
+  "1057626103":    pthread_mutex_destroy
+  "1058807208":    dg_D4f3sSIvwQtWIVJaI
+  "1063673832":    viypoT3iiP75pVDsPjHh
+  "1085812568":    _ZN5swift19MutexPlatformHelper7destroyER23_opaque_pthread_mutex_t
+  "1103231876":    ABYTi753zGKEgKtm
+  "1114403586":    abort
+  "1120901139":    YQ0BuWfBSL3xw9wFuw7
+  "1133221890":    'base witness table accessor for Swift._HasCustomAnyHashableRepresentation in __C.UIApplicationLaunchOptionsKey : Swift._SwiftNewtypeWrapper in __C_Synthesized'
+  "1147610755":    NSStringFromClass
+  "114804105":     pthread_mutexattr_settype
+  "1168394504":    c9526W_gvZFUGDEZsZ
+  "1171606411":    kOBGaqSl0TJUNLcpc
+  "1185748158":    '(extension in Swift):Swift._SwiftNewtypeWrapper< where A: Swift.Hashable, A.Swift.RawRepresentable.RawValue: Swift.Hashable>._toCustomAnyHashable() -> Swift.Optional<Swift.AnyHashable>'
+  "1186675778":    'protocol witness for Swift._ObjectiveCBridgeable._bridgeToObjectiveC() -> A._ObjectiveCType in conformance __C.UIApplicationLaunchOptionsKey : Swift._ObjectiveCBridgeable in __C_Synthesized'
+  "1190080448":    'static (extension in Foundation):Swift.String._forceBridgeFromObjectiveC(_: __C.NSString, result: inout Swift.Optional<Swift.String>) -> ()'
+  "1201143195":    pthread_cond_signal
+  "1201607720":    vX4_OQ2BHAcsDXT
+  "1203749095":    AppIntegrityDylib_Msd_LcDylib_CmpDylibs_Murmur2
+  "1211220104":    'Swift._stringCompareWithSmolCheck(_: Swift._StringGuts, _: Swift._StringGuts, expecting: Swift._StringComparisonResult) -> Swift.Bool'
+  "1226071004":    OQwp2hWHZik
+  "1233220730":    dWVJ9h9ThX
+  "1233330496":    ZYusWLkJSZ54uoV
+  "126607113":     _luW7AeZBR2
+  "1267411219":    os_unfair_lock_trylock
+  "1269011668":    Bt0xnq9Fx9BoiMZddx
+  "1275605475":    _ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE
+  "1276630386":    Yd0Afcrvf4m9YJgc8QlM
+  "1278701670":    WXwpbqPTldoar
+  "128121257":     rWhd83GZNRNEIFD
+  "1283256953":    _ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE
+  "1302324685":    hWz_oyCr3VshYNiJzmA2
+  "1307815353":    AppIntegrityDylib_Mso_LcDylib_CmpDylibs_Murmur2
+  "1328257125":    _ZN5swift23ConditionPlatformHelper9notifyOneER22_opaque_pthread_cond_t
+  "134560870":     _ZN5swift27ReadWriteLockPlatformHelper12try_readLockER24_opaque_pthread_rwlock_t
+  "1345994916":    JSnhOb5NIkhnOUOC
+  "1365763048":    '(extension in Foundation):Swift.Dictionary._bridgeToObjectiveC() -> __C.NSDictionary'
+  "136642620":     swift_bridgeObjectRelease
+  "13787607":      Lj17Z9AESVPWtFacILUR
+  "1380583721":    swift_errorRetain
+  "1392601820":    UJfyW51eZpyH97jP3a
+  "1396182610":    hIfQlJeX2Zl
+  "1396236096":    _ZN5swift19MutexPlatformHelper4initER23_opaque_pthread_mutex_tb
+  "1397207242":    _ZN5swift27ReadWriteLockPlatformHelper9writeLockER24_opaque_pthread_rwlock_t
+  "1402727496":    _ZN5swift19MutexPlatformHelper8try_lockER23_opaque_pthread_mutex_t
+  "1420430297":    Ng_U5hGa9CymjlnSxX1
+  "143921562":     Q_DP_Iph1HWaEIYsCY
+  "1444262687":    pthread_mutex_init
+  "1446767573":    xXfmQwgTQSeglXoIXJc
+  "1456494360":    VWCuFmqQkFUmrAu
+  "1460487671":    _ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE
+  "1474649921":    dispatch_once_f
+  "1489263705":    nwawdsTon9nl
+  "14910582":      'Swift.Hasher.init(_seed: Swift.Int) -> Swift.Hasher'
+  "1512352403":    vsjwDLC
+  "1522023118":    '@objc Runner.AppDelegate.application(_: __C.UIApplication, didFinishLaunchingWithOptions: Swift.Optional<Swift.Dictionary<__C.UIApplicationLaunchOptionsKey, Any>>) -> Swift.Bool'
+  "1524686606":    aMyW_rmAWcZxZfnCU6J
+  "1543303310":    AppIntegrityDylib_Mso_LcDylib_CmpDylibs_Djb2
+  "1546605062":    v8gVsAZC7QCGq
+  "1554710282":    kJ9xWWlbPtpDRAxS9Rs
+  "1561305670":    __swift_instantiateConcreteTypeFromMangledName
+  "1563350609":    'Swift.String.hashValue.getter : Swift.Int'
+  "1567045756":    'protocol witness for Swift.RawRepresentable.init(rawValue: A.RawValue) -> Swift.Optional<A> in conformance __C.UIApplicationLaunchOptionsKey : Swift.RawRepresentable in __C_Synthesized'
+  "1567667464":    felL6un3cMWiZa6BIw
+  "1573187486":    _ZN5swift19_swift_tsan_releaseEPv
+  "157991032":     uoMJEvyZ2XKjHaTpY
+  "1591503783":    lx7kcQIOG2Rcaf
+  "1594709023":    'protocol witness for static Swift._ObjectiveCBridgeable._conditionallyBridgeFromObjectiveC(_: A._ObjectiveCType, result: inout Swift.Optional<A>) -> Swift.Bool in conformance __C.UIApplicationLaunchOptionsKey : Swift._ObjectiveCBridgeable in __C_Synthesized'
+  "1603572807":    objc_opt_self
+  "1605779393":    Fbw9Ez0ZaZ6mlAi5pq
+  "1606915557":    _ZN5swift27ReadWriteLockPlatformHelper10readUnlockER24_opaque_pthread_rwlock_t
+  "1607203125":    'Runner.my_callback() -> ()'
+  "1638679000":    F9xohn_jbbCLP9Wweib
+  "1641142465":    GatK2oY6w5n5o
+  "16411492":      _ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc
+  "1647922518":    'function signature specialization <Arg[2] = Dead> of generic specialization <serialized, __C.UIApplicationLaunchOptionsKey> of static (extension in Swift):Swift._SwiftNewtypeWrapper< where A.RawValue: Swift._ObjectiveCBridgeable>._conditionallyBridgeFromObjectiveC(_: A.RawValue._ObjectiveCType, result: inout Swift.Optional<A>) -> Swift.Bool'
+  "1659454169":    NMpCzLk8RsuHU
+  "1674709918":    ''
+  "1681414724":    _ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc
+  "1692816613":    pthread_cond_destroy
+  "1704840395":    'protocol witness for Swift.Hashable.hashValue.getter : Swift.Int in conformance __C.UIApplicationLaunchOptionsKey : Swift.Hashable in __C_Synthesized'
+  "1708354728":    'protocol witness for static Swift.Equatable.== infix(A, A) -> Swift.Bool in conformance __C.UIApplicationLaunchOptionsKey : Swift.Equatable in __C_Synthesized'
+  "1719422415":    aJ9TzfbUI6XXuq26
+  "1735091889":    mX8x95HqKnmfQXwvV
+  "1740903402":    uCvnk8u6jHiJ
+  "174292742":     HLYjrO3S9yhLbS
+  "1744111463":    nJpYut2q29TyrdU
+  "1749334826":    QQKQCcppzyH
+  "1752718343":    voucher_adopt
+  "1772581246":    _ZN5swift19MutexPlatformHelper4lockER23_opaque_pthread_mutex_t
+  "1773438181":    zCKjmX6UgSvFQm
+  "1782129414":    UAVEMbAeqJZnqGGY0vV
+  "1802180443":    CdHcXgsv9D18
+  "1827300505":    'static (extension in Foundation):Swift.String._conditionallyBridgeFromObjectiveC(_: __C.NSString, result: inout Swift.Optional<Swift.String>) -> Swift.Bool'
+  "1828395810":    swift_getTypeByMangledNameInContext
+  "1836627501":    Ljd7LNfzgO0c4o
+  "1854130493":    swift_release
+  "185889482":     os_unfair_lock_unlock
+  "1860975908":    _RunnerG2SrlY
+  "1861409790":    gdmMivubKy
+  "1864976651":    P_qcRepXPU0UBHvgMOVY
+  "1868367303":    i5I4dVsf_xl9IFdC
+  "1869476305":    ZFmKPAjKvGmBkddlrFh
+  "1900699964":    HAaEvJMYN8Waji
+  "1905045075":    eJ69BijT1jjORTnquT
+  "1907351121":    bodTypS8uvtsr1o0
+  "1921891459":    swift_getForeignTypeMetadata
+  "1925148236":    _ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE
+  "1926097851":    'function signature specialization <Arg[2] = Dead> of generic specialization <serialized, __C.UIApplicationLaunchOptionsKey> of static (extension in Swift):Swift._SwiftNewtypeWrapper< where A.RawValue: Swift._ObjectiveCBridgeable>._forceBridgeFromObjectiveC(_: A.RawValue._ObjectiveCType, result: inout Swift.Optional<A>) -> ()'
+  "1927101058":    _ZN5swift9AsyncTask20flagAsSuspended_slowEv
+  "1935776934":    UKgJ7sdEI3kSCcGa
+  "1936648922":    O39vEEEnBB1oovC
+  "1946653275":    NdM3iJ_eZE4r
+  "1954560032":    os_release
+  "1965527185":    mBwndiIkGwF804bi
+  "1969130574":    bMbWmummOLhoR9A
+  "1978080240":    'Swift.print(_: Any..., separator: Swift.String, terminator: Swift.String) -> ()'
+  "1985293569":    pthread_rwlock_rdlock
+  "1994885405":    Uspbrr09G3
+  "1994888752":    'Runner.(ResourceBundleClass in _7571A7321C8DCCC28D894D1A71659FA9).__deallocating_deinit'
+  "2002378697":    AppIntegritySignature_Mso_Section_SigningIds_Djb2
+  "2003603445":    iqtvRf1k3BIeC
+  "2007902937":    cHce_Sqbxr9bBE1v2
+  "2014881461":    '@objc Runner.AppDelegate.init() -> Runner.AppDelegate'
+  "2023186809":    'static (extension in Foundation):Swift.String._unconditionallyBridgeFromObjectiveC(Swift.Optional<__C.NSString>) -> Swift.String'
+  "2026843624":    swift_bridgeObjectRelease_n
+  "2041564471":    pthread_mutexattr_destroy
+  "2049189595":    'protocol witness for Swift.RawRepresentable.rawValue.getter : A.RawValue in conformance __C.UIApplicationLaunchOptionsKey : Swift.RawRepresentable in __C_Synthesized'
+  "2078064195":    _ZN5swift19_swift_tsan_acquireEPv
+  "2078378245":    _ZN5swift19MutexPlatformHelper6unlockER23_opaque_pthread_mutex_t
+  "2080388068":    GKpwwjLTxtQ8w0bTdksh
+  "208081423":     eStFhIZcJAc69A246Tzb
+  "208740814":     _ZN5swift27ReadWriteLockPlatformHelper8readLockER24_opaque_pthread_rwlock_t
+  "2100486341":    _ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE
+  "2100756941":    _ZN5swift14VoucherManager9swapToJobEPNS_3JobE
+  "2108216312":    'type metadata accessor for Runner.(ResourceBundleClass in _7571A7321C8DCCC28D894D1A71659FA9)'
+  "211238557":     lqEmsgdoG_HIz
+  "2119616074":    ZKoxKqAeiS3zUfbsBLTY
+  "2125617451":    nVy1sqMXUBwrUPS59NP
+  "2128237687":    hAKkQbYEUyuMOr6JXS
+  "2129277916":    IteoZy339_5VVQ_F
+  "2129499977":    tUJQdKit8Zr
+  "2135222675":    WB1GMa0VwMp1
+  "224675052":     Alf1ABqrduMyBOym
+  "239875679":     pthread_mutex_trylock
+  "261355402":     XIqO8GUuXscZ09c9v5
+  "308470625":     _ZN5swift9AsyncTask18flagAsRunning_slowEv
+  "311522307":     _ZN5swift27ReadWriteLockPlatformHelper11writeUnlockER24_opaque_pthread_rwlock_t
+  "329066989":     'Swift.String.hash(into: inout Swift.Hasher) -> ()'
+  "334018811":     pthread_rwlock_destroy
+  "341681977":     swift_deallocClassInstance
+  "345868479":     'static (extension in Foundation):Swift.Dictionary._unconditionallyBridgeFromObjectiveC(Swift.Optional<__C.NSDictionary>) -> Swift.Dictionary<A, B>'
+  "34628294":      l252l6tVpqHCAHu0V
+  "367691327":     swift_getWitnessTable
+  "371102512":     _ZN5swift23ConditionPlatformHelper7destroyER22_opaque_pthread_cond_t
+  "394333159":     'base witness table accessor for Swift.Equatable in __C.UIApplicationLaunchOptionsKey : Swift.Hashable in __C_Synthesized'
+  "398576792":     'protocol witness for Swift.Hashable._rawHashValue(seed: Swift.Int) -> Swift.Int in conformance __C.UIApplicationLaunchOptionsKey : Swift.Hashable in __C_Synthesized'
+  "402850251":     XQfEN5X0DCFDAS0sX0ia
+  "40699431":      pVzhRpSK5aFQGjBa_V
+  "413028349":     mDGIXHHgxc
+  "419205235":     CILPU_jUYkubj
+  "423086519":     pthread_cond_broadcast
+  "444028991":     LKZK8vEcuob
+  "472180492":     pthread_cond_init
+  "473631720":     _ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E
+  "47679760":      'protocol witness for static Swift._ObjectiveCBridgeable._forceBridgeFromObjectiveC(_: A._ObjectiveCType, result: inout Swift.Optional<A>) -> () in conformance __C.UIApplicationLaunchOptionsKey : Swift._ObjectiveCBridgeable in __C_Synthesized'
+  "48044110":      __llvm_profile_runtime_user
+  "493814690":     fPMV8kEeFJx45gZg
+  "497017742":     qXOpYJVt8AEkknBiRArP
+  "50474126":      objc_msgSend
+  "513298334":     S_dMyTSLiuMfHBMf
+  "517352614":     nQ6xKSplltrg
+  "520042436":     q1W4EbxkJzILOWQ1BXU
+  "53255831":      aSQgV43KZyZD8hpo
+  "540877782":     pthread_rwlock_tryrdlock
+  "546033619":     type metadata accessor for Runner.AppDelegate
+  "551162990":     dfbUIxqnmK
+  "55533485":      pXWvfs81_o9
+  "556686913":     _ZN5swift23ConditionPlatformHelper4initER22_opaque_pthread_cond_t
+  "561100431":     swift_allocObject
+  "565850158":     _ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E
+  "57071584":      swift_bridgeObjectRetain
+  "579772858":     _ZN5swift27ReadWriteLockPlatformHelper7destroyER24_opaque_pthread_rwlock_t
+  "579932850":     lCr9OGpFQ4s
+  "586362580":     _ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE
+  "597262979":     TbKH9ucKpLR
+  "600385676":     bnHmGGe0UQ2LPNTgX1bi
+  "610857272":     tdrNl1MGJXOk
+  "619030488":     'protocol witness for Swift._HasCustomAnyHashableRepresentation._toCustomAnyHashable() -> Swift.Optional<Swift.AnyHashable> in conformance __C.UIApplicationLaunchOptionsKey : Swift._HasCustomAnyHashableRepresentation in __C_Synthesized'
+  "629870358":     'protocol witness for Swift.Hashable.hash(into: inout Swift.Hasher) -> () in conformance __C.UIApplicationLaunchOptionsKey : Swift.Hashable in __C_Synthesized'
+  "631221636":     hpexdQmLOKhX9qNW
+  "637107730":     WuVvEqebciA
+  "648121824":     pthread_mutexattr_init
+  "651473509":     iRdOD8btbzdHZkzVZ
+  "656302807":     objc_msgSendSuper2
+  "670675175":     i3zkBJC0Djspq
+  "678775179":     qae7zacCOyt5xJ
+  "679563960":     GzrPRKErsUy
+  "714036153":     arc4random_buf
+  "716426716":     type metadata accessor for __C.UIApplicationLaunchOptionsKey
+  "719360900":     _ZN5swift27ReadWriteLockPlatformHelper13try_writeLockER24_opaque_pthread_rwlock_t
+  "730615064":     AppIntegrityHeader_Msd_MhPie
+  "731929267":     '+[GeneratedPluginRegistrant registerWithRegistry:]'
+  "732985071":     V1V7iizt0BzDho6xzIMG
+  "749315843":     hrcckeDO9W79fK0a
+  "754532516":     Runner.AppDelegate.__deallocating_deinit
+  "770643325":     _ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s
+  "778762699":     'protocol witness for static Swift._ObjectiveCBridgeable._unconditionallyBridgeFromObjectiveC(Swift.Optional<A._ObjectiveCType>) -> A in conformance __C.UIApplicationLaunchOptionsKey : Swift._ObjectiveCBridgeable in __C_Synthesized'
+  "781697691":     pthread_rwlock_init
+  "800102308":     ytltQB7CKFHUqOahKJm
+  "806408090":     QrNaHBtwyhWOhKzbmlK
+  "808631301":     main
+  "812784903":     AppIntegritySignature_Msd_Section_SigningIds_Sdbm
+  "815148837":     UIApplicationMain
+  "81743514":      swift_once
+  "836326868":     P3Ji3lut5Oydzn1FDIFC
+  "838683991":     g49yH24po4ZTRDHo
+  "838808629":     pthread_getspecific
+  "845393900":     sLMPjXRe_eu0K
+  "856107160":     P6GLFyoxMPlVdh
+  "87360054":      cjzuAcDWL1YZD
+  "879478031":     '(extension in Foundation):Swift.String._bridgeToObjectiveC() -> __C.NSString'
+  "884508456":     os_unfair_lock_lock
+  "899569506":     _ZN5swift19MutexPlatformHelper8try_lockER16os_unfair_lock_s
+  "913704755":     pthread_rwlock_unlock
+  "925149931":     lsAd5b02bB9p2mV4
+  "925647718":     _ZN5swift23ConditionPlatformHelper4waitER22_opaque_pthread_cond_tR23_opaque_pthread_mutex_t
+  "936902159":     KDAZYUAbK6Fr3rXMKNTz
+  "946796808":     pthread_mutex_lock
+  "95047969":      _swift_stdlib_operatingSystemVersion
+  "953630083":     'Swift.Hasher._finalize() -> Swift.Int'
+  "979231294":     uGGjcmKzBSrBWxP
+  "983244906":     kak5hI2hZ7VXJy
+  "989879936":     pmXRLIzZqPH7xE
+  "998663230":     YFs6uTGIzS
+...

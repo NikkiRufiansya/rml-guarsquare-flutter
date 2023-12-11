@@ -1,5 +1,5 @@
 debug:
-  autoconfigure: true
+  autoconfigure: false
   instrumentation: 
     enabled: true
   verbosity: debug
@@ -29,7 +29,7 @@ protection:
     jailbreak:
       enabled: true
       callback: "my_callback"
-      continue-on-callback: false
+      continue-on-callback: true
     touch-simulation:
       enabled: true
   arithmetic-operations:
@@ -39,7 +39,9 @@ protection:
   app-integrity:
     enabled: true
   resources:
-    enabled: true 
+    enabled: true
+monitor:
+  threatcast-key: "eyJ2ZXJzaW9uIjoxLCJrZXkiOiIzNzY2YWRhMTNhODExMDBiYTRmNDI1MjM3YmU5ZTk5MDI1OTRhNTgyNDE0OWQ2MGQiLCJmbGFncyI6eyJoZWFydGJlYXRzIjp0cnVlfSwiZW5kcG9pbnQiOiJyYWRpdHlhbXVsaWFsZXN0YXJpLnRocmVhdGNhc3QuZ3VhcmRzcXVhcmUuY29tIiwiaW50ZWdyYXRpb25LZXkiOiIwZTE3OTYyYzI0Y2I5M2E5N2E1ODUzOWM3YTllMDE4MjdmMmY0NWUzOGNjMjVjZjA4MDlhMzUzZGUwMTI2ZDY5Iiwic2VjcmV0IjoiZGYzYzRkYmY0MWI2ZWU1Zjc3OWEyYzgzMmU1ZWU3ZDZmNzI1M2E0ZjA0ZmViYWExYjIyODk5ZDJiMDE5OGI5ZiJ9" 
 license:
   - /Users/rmltech/Documents/GuardSqurare/ixguard-license.txt
  

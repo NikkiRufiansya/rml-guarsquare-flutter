@@ -26,6 +26,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Splash Screen',
@@ -55,15 +60,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    super.initState();
+
+     ToastContext().init(context); 
+   
     Timer(
       const Duration(seconds: 5),
       () {
-        print("detected :: $detected");
+        print("detected jailbreak:: $detected");
         if (detected == true) {
-          Toast.show("jailbreak detected",
-              duration: Toast.lengthShort, gravity: Toast.bottom);
-          Future.delayed(const Duration(seconds: 4), () {
+          showToast("Jailbreak Detection", duration: 5, gravity: Toast.bottom);
+          Future.delayed(const Duration(seconds: 3), () {
             exit(0);
           });
         }
@@ -84,7 +90,8 @@ class _MyHomePageState extends State<MyHomePage> {
         // }
       },
     );
-    checkJwt();
+    //checkJwt();
+     super.initState();
   }
 
   @override

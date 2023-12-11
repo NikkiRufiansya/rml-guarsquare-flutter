@@ -98,12 +98,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   flex: 1,
                   child: GestureDetector(
                     onTap: () {
-                      final link = "https://www.acunetix.com/";
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
                             builder: (context) => DetailProduct(
-                              link: link,
+                              title: "Acunetix",
+                              link: 'https://www.acunetix.com/',
                             ),
                           ));
                     },
@@ -117,11 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Image.network(
-                              "https://upload.wikimedia.org/wikipedia/commons/a/a4/Acunetix_logo.png",
-                              width: 130,
-                              height: 130,
-                            ),
+                            child: Image.asset("assets/Acunetix_logo.png"),
                           )
                         ],
                       ),
@@ -130,23 +126,31 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Expanded(
                   flex: 1,
-                  child: Container(
-                    height: 160,
-                    margin: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: secondary1),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Image.network(
-                            "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Invicti-900x0.png",
-                            width: 150,
-                            height: 140,
-                          ),
-                        )
-                      ],
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailProduct(
+                              title: "Invicti",
+                              link: 'https://www.invicti.com/',
+                            ),
+                          ));
+                    },
+                    child: Container(
+                      height: 160,
+                      margin: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: secondary1),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Image.asset("assets/invicti_logo.png"),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -156,61 +160,77 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Expanded(
                   flex: 1,
-                  child: Container(
-                    height: 160,
-                    margin: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: secondary1),
-                    child: Column(
-                      children: [
-                        const SizedBox(
-                          height: 15,
-                        ),
-                        Image.network(
-                          "https://www.guardsquare.com/hubfs/nav-icon_dexguard-2-1.png",
-                          width: 100,
-                          height: 100,
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        const Text(
-                          "DexGuard",
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w600),
-                        )
-                      ],
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailProduct(
+                              title: "Dexguard",
+                              link: 'https://www.guardsquare.com/dexguard',
+                            ),
+                          ));
+                    },
+                    child: Container(
+                      height: 160,
+                      margin: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: secondary1),
+                      child: Column(
+                        children: [
+                          const SizedBox(
+                            height: 15,
+                          ),
+                          Image.asset("assets/dex-logo.png", width: 100,),
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          const Text(
+                            "DexGuard",
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.w600),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
                 Expanded(
                   flex: 1,
-                  child: Container(
-                    height: 160,
-                    margin: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: secondary1),
-                    child: Column(
-                      children: [
-                        const SizedBox(
-                          height: 15,
-                        ),
-                        Image.network(
-                          "https://www.guardsquare.com/hubfs/nav-icon_ixguard_2.png",
-                          width: 100,
-                          height: 100,
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        const Text(
-                          "IxGuard",
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w600),
-                        )
-                      ],
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailProduct(
+                              title: "IxGuard",
+                              link: 'https://www.guardsquare.com/ixguard',
+                            ),
+                          ));
+                    },
+                    child: Container(
+                      height: 160,
+                      margin: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: secondary1),
+                      child: Column(
+                        children: [
+                          const SizedBox(
+                            height: 15,
+                          ),
+                          Image.asset("assets/ix-logo.png", width: 100,),
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          const Text(
+                            "IxGuard",
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.w600),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -220,45 +240,61 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Expanded(
                   flex: 1,
-                  child: Container(
-                    height: 160,
-                    margin: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: secondary1),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Image.network(
-                            "https://upload.wikimedia.org/wikipedia/commons/6/6d/Appknox_Logo.png",
-                            width: 130,
-                            height: 130,
-                          ),
-                        )
-                      ],
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailProduct(
+                              title: "Appknox",
+                              link: 'https://www.appknox.com/',
+                            ),
+                          ));
+                    },
+                    child: Container(
+                      height: 160,
+                      margin: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: secondary1),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 50),
+                            child: Image.asset("assets/appknox.png"),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
                 Expanded(
                   flex: 1,
-                  child: Container(
-                    height: 160,
-                    margin: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: secondary1),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Image.network(
-                            "https://download.logo.wine/logo/Sophos/Sophos-Logo.wine.png",
-                            width: 150,
-                            height: 140,
-                          ),
-                        )
-                      ],
+                  child: GestureDetector(
+                    onTap: () {
+                       Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailProduct(
+                              title: "Sophos",
+                              link: 'https://www.sophos.com/en-us',
+                            ),
+                          ));
+                    },
+                    child: Container(
+                      height: 160,
+                      margin: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: secondary1),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(0.0),
+                            child: Image.asset("assets/sophos.png", width: 150,)
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -270,19 +306,19 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: ImageIcon(AssetImage("assets/home.png")),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_month),
+            icon: ImageIcon(AssetImage("assets/agenda.png")),
             label: 'Agenda',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_today),
+            icon: ImageIcon(AssetImage("assets/ticketing.png")),
             label: 'Ticketing',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
+            icon: ImageIcon(AssetImage("assets/user.png")),
             label: 'User',
           ),
         ],
@@ -295,7 +331,6 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: secondary2,
         child: Icon(Icons.message),
         onPressed: () async {
-          
           // dynamic user = {
           //   'userId': "visitor",
           //   'password': "",
@@ -313,8 +348,6 @@ class _HomeScreenState extends State<HomeScreen> {
           // }).catchError((error) {
           //   print("Conversation builder error : " + error.toString());
           // });
-
-         
 
           // KommunicateFlutterPlugin.logout();
         },

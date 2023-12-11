@@ -58,7 +58,7 @@ android {
         applicationId "com.rmldemo.guardsquare"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 21
+        minSdkVersion 26
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -86,13 +86,12 @@ dependencies {
 
 
 dexguard {
-    path = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.21'
+    path = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.22'
     license = '/Users/rmltech/Documents/GuardSqurare/dexguard-license.txt'
     configurations {
         release {
             defaultConfiguration 'dexguard-release-aggressive.pro'
             configuration 'dexguard-project.txt'
-
         }
     }
 }

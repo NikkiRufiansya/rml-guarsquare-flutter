@@ -9,14 +9,14 @@ buildscript {
         google()
         mavenCentral()
         maven {
-            url = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.21/lib'
+            url = '/Users/rmltech/Documents/GuardSqurare/DexGuard-9.4.22/lib'
         }
     }
 
     dependencies {
         classpath "com.android.tools.build:gradle:$agp_version1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.guardsquare:dexguard-gradle-plugin:9.4.21'
+        classpath 'com.guardsquare:dexguard-gradle-plugin:9.4.22'
     }
 }
 
